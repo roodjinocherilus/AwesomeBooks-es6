@@ -7,7 +7,7 @@ import {form} from "./dom-element.js";
 import {subtitle} from "./dom-element.js";
 import {contact} from "./dom-element.js";
 
-function list() {
+const list = () => {
   listB.classList.remove('hide');
   subtitle.classList.add('hide');
   form.classList.add('hide');
@@ -17,7 +17,7 @@ function list() {
   btnAddNew.classList.add('link_nav');
   btnContact.classList.add('link_nav');
 }
-function addNew() {
+const addNew = () => {
   listB.classList.add('hide');
   subtitle.classList.remove('hide');
   form.classList.remove('hide');
@@ -28,7 +28,7 @@ function addNew() {
   btnContact.classList.add('link_nav');
 }
 
-function contactNav() {
+const contactNav = () => {
   listB.classList.add('hide');
   subtitle.classList.add('hide');
   form.classList.add('hide');

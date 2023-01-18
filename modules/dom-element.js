@@ -8,5 +8,3 @@ export const btnList = document.getElementById('listLink');
 export const btnAddNew = document.getElementById('addLink');
 export const btnContact = document.getElementById('contactLink');
 export const deleteBtn = document.querySelectorAll('.button');
-
-

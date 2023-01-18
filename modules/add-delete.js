@@ -8,7 +8,7 @@ import {display} from "./display-books.js"
 
 let index = 0;
 
-function getContent() {
+const getContent = () => {
     const title = document.getElementById('title');
     const author = document.getElementById('author');
     const titleBook = title.value;
@@ -44,3 +44,6 @@ function getContent() {
       getIndex();
     });
   });
+
+
+  

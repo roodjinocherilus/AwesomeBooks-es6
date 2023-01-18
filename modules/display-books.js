@@ -1,4 +1,5 @@
-export function display() {
+
+export const display = () => {
     let getBooks = localStorage.getItem('books');
     getBooks = JSON.parse(getBooks);
     if (getBooks != null) {
@@ -19,3 +20,5 @@ export function display() {
     }
   }
   display();
+
+  
