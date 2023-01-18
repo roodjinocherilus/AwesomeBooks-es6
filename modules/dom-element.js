@@ -1,4 +1,4 @@
-export const buttonAdd = document.getElementById('add')
+export const buttonAdd = document.getElementById('add');
 export const listB = document.getElementById('list-books');
 export const subtitle = document.getElementById('subtitle');
 export const form = document.getElementById('add-books');

@@ -1,11 +1,6 @@
-
-import {btnAddNew} from "./dom-element.js";
-import {btnContact} from "./dom-element.js";
-import {btnList} from "./dom-element.js";
-import {listB} from "./dom-element.js";
-import {form} from "./dom-element.js";
-import {subtitle} from "./dom-element.js";
-import {contact} from "./dom-element.js";
+import {
+  btnAddNew, btnContact, btnList, listB, form, subtitle, contact,
+} from './dom-element.js';
 
 const list = () => {
   listB.classList.remove('hide');
@@ -16,7 +11,7 @@ const list = () => {
   btnList.classList.remove('link_nav');
   btnAddNew.classList.add('link_nav');
   btnContact.classList.add('link_nav');
-}
+};
 const addNew = () => {
   listB.classList.add('hide');
   subtitle.classList.remove('hide');
@@ -26,7 +21,7 @@ const addNew = () => {
   btnAddNew.classList.remove('link_nav');
   btnList.classList.add('link_nav');
   btnContact.classList.add('link_nav');
-}
+};
 
 const contactNav = () => {
   listB.classList.add('hide');
@@ -37,7 +32,7 @@ const contactNav = () => {
   btnContact.classList.remove('link_nav');
   btnList.classList.add('link_nav');
   btnAddNew.classList.add('link_nav');
-}
+};
 
 btnList.addEventListener('click', list);
 
