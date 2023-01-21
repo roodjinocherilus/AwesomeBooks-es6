@@ -85,8 +85,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - Go to this repo and copy the project link
-        https://github.com/roodjinocherilus/AwesomeBooks.git
-- Open your terminal and clone the repo with this command "git clone https://github.com/roodjinocherilus/AwesomeBooks.git"
+        https://github.com/roodjinocherilus/AwesomeBooks-es6.git
+- Open your terminal and clone the repo with this command "git clone https:https://github.com/roodjinocherilus/AwesomeBooks-es6.git"
 - Now, you have a copy on your pc. 
 
 
